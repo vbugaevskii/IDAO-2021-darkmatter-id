@@ -76,3 +76,11 @@ Now points from test data also can be used for training. According to clusterisa
 The solution for this track takes only 4 final models from solution for track 1.
 
 [`Track2`](Track2) contains python code for submission.
+
+## Other ideas
+
+Our models try to solve 2 seperate problems: classify particle's type, predict particle's energy.
+It turns out that better quality can be faster achived by solving these 2 problems simultaneously - predict one of 12 classes.
+The problem is that we need scores for particle's type classification, so we still have to train 2 heads.
+
+Example solution can be found [here](extra/Track1-CNN-labeled-2.ipynb). 
