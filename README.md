@@ -14,6 +14,7 @@ The objective is to create a model that, given an event, outputs the energy of t
 In the data there are electrons, He nucleus and energies in the range 1, 3, 6, 10, 20, 30 keV - 12 classes in total. These classes are split into training classes and test classes, with 3, 10, 30 keV electrons and 1, 6, 20 keV He being training classes and the remaining six being the test classes.
 
 ![images/vae_reconstruction.png](images/statement_01.png)
+
 ![images/vae_reconstruction.png](images/statement_02.png)
 
 | Energy, kEv | He | e |
@@ -72,6 +73,6 @@ Now points from test data also can be used for training. According to clusterisa
 
 ## Track 2
 
-The solution for this track takes only 4 models from solution for track 1.
+The solution for this track takes only 4 final models from solution for track 1.
 
 [`Track2`](Track2) contains python code for submission.
