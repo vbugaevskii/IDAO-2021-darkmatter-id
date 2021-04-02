@@ -28,7 +28,7 @@ In the data there are electrons, He nucleus and energies in the range 1, 3, 6, 1
 
 where `+` - class in train, `-` - class in test.
 
-Test part also has a small public part, which consists of images taken from train ditribution.
+Test part also has a small public part, which consists of images taken from train distribution.
 
 ## Track 1
 
@@ -84,3 +84,12 @@ It turns out that better quality can be faster achived by solving these 2 proble
 The problem is that we need scores for particle's type classification, so we still have to train 2 heads.
 
 Example solution can be found [here](extra/Track1-CNN-labeled-2.ipynb). 
+
+## Leaderboard
+
+|             | auc (public) | mae (public) | score (public) | auc (private) | mae (private) | score (private) |
+|-------------|--------------|--------------|----------------|---------------|---------------|-----------------|
+| **Track 1** | 0.999996     | 0.025965     | 974.03         | 0.977366      | 0.173529      | 964.00          |
+| **Track 2** | 1.000000     | 0.036000     | 803.84         | 0.945614      | 0.472565      | 473.05          |
+
+Our team took the 3rd place on the private leaderboard according to both tracks.
