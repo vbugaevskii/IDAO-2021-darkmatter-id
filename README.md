@@ -30,6 +30,8 @@ where `+` - class in train, `-` - class in test.
 
 Test part also has a small public part, which consists of images taken from train distribution.
 
+Full statement can be found in [this video](https://www.youtube.com/watch?v=VzH_58yYz5k).
+
 ## Track 1
 
 Unlike baseline solution we are going to solve classification tasks both for particle type and it's energy.
