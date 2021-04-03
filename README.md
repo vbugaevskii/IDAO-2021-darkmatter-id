@@ -94,6 +94,4 @@ Example solution can be found [here](extra/Track1-CNN-labeled-2.ipynb).
 | **Track 1** | 0.999996     | 0.025965     | 974.03         | 0.977366      | 0.173529      | 964.00          |
 | **Track 2** | 1.000000     | 0.036000     | 803.84         | 0.945614      | 0.472565      | 473.05          |
 
-<!---
-Our team took the 3rd place on the private leaderboard according to both tracks.
----!>
+Our team took the 4th place on the private leaderboard according to both tracks.
